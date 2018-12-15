@@ -3,6 +3,8 @@
   <remote name="origin" fetch="https://github.com/jokram" />
   <default revision="master" remote="origin" />
 
-  <project path="pkg/submeta" name="repo_submeta.git" remote="origin" />
+  <project path="pkg/submeta" name="repo_submeta.git" remote="origin">
+     <linkfile dest=".repo/local_manifests/10_submeta.xml" src="default.xml"/>
+  </project>
 
 </manifest>
